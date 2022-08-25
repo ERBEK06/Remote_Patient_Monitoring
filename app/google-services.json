@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "57796378572",
+    "firebase_url": "https://health-monitor-a1c84-default-rtdb.firebaseio.com",
+    "project_id": "health-monitor-a1c84",
+    "storage_bucket": "health-monitor-a1c84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57796378572:android:3adb23567d30bcb4bfa769",
+        "android_client_info": {
+          "package_name": "com.erbek.remotepatientm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57796378572-kbdg85ocg3gh0jk0jioaetcq33ot218p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwJg6YG1zbBH9Hm1tHA2ucn3NRxcRgL3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57796378572-kbdg85ocg3gh0jk0jioaetcq33ot218p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

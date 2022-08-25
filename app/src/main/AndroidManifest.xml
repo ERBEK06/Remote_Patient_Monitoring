@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.erbek.remotepatientm">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="Android.Manifest.Permission.CallPhone" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo1_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RemotePatientM">
+        <activity
+            android:name=".changepass"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB3KRnfMP0my4PJa6FMEsU31rdLnrcuIMg" />
+
+        <activity
+            android:name=".Googlemap"
+            android:exported="false" />
+        <activity
+            android:name=".ShowGraph"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterScreen"
+            android:exported="false" />
+        <activity
+            android:name=".PatientHomepage"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorHomepage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
